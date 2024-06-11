@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.1
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: riley.xia@openpie.com
+author_name: summerbaby
+has_binder: false
+has_settings: false
+kind: theme
+labextension_name: '@openpie/jupyterTheme'
+project_short_description: A JupyterLab extension.
+python_name: openpie_jupyterTheme
+repository: https://github.com/summerbabybiu/jupyterlab-themes.git
+test: false
+
