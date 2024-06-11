@@ -32,7 +32,6 @@ all of MD as it is not optimized for dense, information rich UIs.
    * https://github.com/material-components/material-components-web
    * https://material-components-web.appspot.com/elevation.html
    */
-
   --jp-shadow-base-lightness: 0;
   --jp-shadow-umbra-color: rgba(
     var(--jp-shadow-base-lightness),
@@ -87,10 +86,10 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   --jp-border-width: 1px;
-  --jp-border-color0: var(--md-grey-400);
-  --jp-border-color1: var(--md-grey-400);
-  --jp-border-color2: var(--md-grey-300);
-  --jp-border-color3: var(--md-grey-200);
+  --jp-border-color0: #E0E0E0;
+  --jp-border-color1: #E0E0E0; /*var(--md-grey-400);*/
+  --jp-border-color2:  #E0E0E0; /*var(--md-grey-300);*/ 
+  --jp-border-color3:  #E0E0E0; /*var(--md-grey-200);*/
   --jp-border-radius: 2px;
 
   /* UI Fonts
@@ -118,9 +117,9 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Defaults use Material Design specification */
   --jp-ui-font-color0: rgba(0, 0, 0, 1);
-  --jp-ui-font-color1: rgba(0, 0, 0, 0.87);
-  --jp-ui-font-color2: rgba(0, 0, 0, 0.54);
-  --jp-ui-font-color3: rgba(0, 0, 0, 0.38);
+  --jp-ui-font-color1: #192A3E;
+  --jp-ui-font-color2: #323C47;
+  --jp-ui-font-color3: #BCC2CE;
 
   /*
    * Use these against the brand/accent/warn/error colors.
@@ -195,7 +194,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-layout-color0: white;
   --jp-layout-color1: white;
-  --jp-layout-color2: var(--md-grey-200);
+  --jp-layout-color2: #fcfbfc;
   --jp-layout-color3: var(--md-grey-400);
   --jp-layout-color4: var(--md-grey-600);
 
@@ -213,10 +212,11 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Brand/accent */
 
-  --jp-brand-color0: #ec0c4b;
-  --jp-brand-color1: #ed225d;
-  --jp-brand-color2: #ee376b;
-  --jp-brand-color3: #ee3b6e;
+  --jp-brand-color0: #a1c9ff;
+  --jp-brand-color1: #5d9bf3;
+  --jp-brand-color2: #1a6ce7;
+  --jp-brand-color3: #0d47b8;
+  --jp-brand-color4: #002288;
   --jp-accent-color0: var(--md-green-700);
   --jp-accent-color1: var(--md-green-500);
   --jp-accent-color2: var(--md-green-300);

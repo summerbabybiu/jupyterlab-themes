@@ -1,4 +1,37 @@
+/* picture icon color */
+/* .jp-icon-brand0[fill] { 
+    fill: #fbfbfb;
+} */
+.jp-icon3[fill] { /* file icon color */
+    fill: var(--jp-layout-color4);
+}
 
-.jp-icon-brand0[fill] {
-    fill: #a1c9ff;
+.jp-DirListing-header {
+    box-shadow: none;
+    border-bottom: var(--jp-border-width) solid var(--jp-border-color2)
+}
+.jp-FilterBox {
+    width: inherit;
+    --neutral-fill-strong-rest: #e0e0e0;
+    --control-corner-radius: 4;
+    --neutral-fill-input-rest: transparent;
+}
+
+.jp-FileBrowser-toolbar .jp-ToolbarButtonComponent[data-command='launcher:create'] {
+    background: var(--jp-brand-color2);
+}
+.jp-FileBrowser-toolbar .jp-ToolbarButtonComponent[data-command='launcher:create']:hover {
+    background: var(--jp-brand-color3);
+
+}
+
+.jp-DirListing-item.jp-mod-selected {
+    background-color: rgb(26 108 231 / 10%);
+    color: var(--jp-brand-color2);
+}
+.jp-DirListing-item.jp-mod-selected .jp-icon-selectable[fill] {
+    fill: var(--jp-brand-color2)
+}
+.jp-DirListing-item.jp-mod-selected .jp-icon-selectable-inverse[fill] {
+    fill: #fff
 }
