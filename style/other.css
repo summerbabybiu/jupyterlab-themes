@@ -32,7 +32,7 @@
 }
 
 jp-button {
-    border-radius: 5px;
+    border-radius: var(--jp-border-radius);
 }
 
 body {
@@ -57,18 +57,18 @@ body {
     border-bottom: none;
 }
 .lm-DockPanel-tabBar {
-    /* padding-left: 5px; */
+    /* padding-left: var(--jp-border-radius); */
     top: 0 !important;
 
 }
 
 .lm-TabBar-content {
-    gap: 5px;
+    gap: var(--jp-border-radius);
 }
 .lm-TabBar-content li {
-    border-radius: 5px;
+    border-radius: var(--jp-border-radius);
     border: none !important;
-    padding-bottom: 5px;
+    padding-bottom: var(--jp-border-radius);
 
 }
 .lm-DockPanel-tabBar .lm-TabBar-tab {
@@ -76,14 +76,14 @@ body {
 }
 .lm-DockPanel-tabBar[data-orientation='horizontal'] {
     min-height: calc(
-        var(--jp-private-horizontal-tab-height) + 2 * var(--jp-border-width) + 5px
+        var(--jp-private-horizontal-tab-height) + 2 * var(--jp-border-width) + var(--jp-border-radius)
       );
 }
 .lm-TabBar-content li::after {
     border-bottom: none !important;
 }
 .lm-TabBar-addButton {
-    border-radius: 5px;
+    border-radius: var(--jp-border-radius);
     margin-left: 5px;
 }
 
@@ -102,17 +102,20 @@ body {
 /* editor */
 .jp-InputArea-editor {
     background: var(--jp-layout-color2);
-    border-radius: 5px;
+    border-radius: var(--jp-border-radius);
 }
 .jp-InputPlaceholder > .jp-Placeholder-content {
     background: var(--jp-layout-color2);
-    border-radius: 5px;
+    border-radius: var(--jp-border-radius);
+}
+.jp-OutputArea-output {
+    border-radius: var(--jp-border-radius);
 }
 
 /* top menu */
 #jp-menu-panel .lm-MenuBar-content li{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: var(--jp-border-radius);
+    border-top-right-radius: var(--jp-border-radius);
 }
 
 /* active menuItem */
@@ -128,11 +131,11 @@ body {
 }
 /* menu dropdown start */
 .lm-Menu {
-    font-size: medium;
+    font-size: var(--jp-content-font-size1);
     box-shadow: rgba(212, 212, 212, 0.4) 0px 4px 20px 0px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-right-radius: var(--jp-border-radius);
+    border-bottom-right-radius: var(--jp-border-radius);
+    border-bottom-left-radius: var(--jp-border-radius);
     border-color: transparent;
 }
 .lm-Menu .lm-Menu-content .lm-Menu-item {
@@ -154,4 +157,9 @@ body {
 
 .jp-SideBar.lm-TabBar .lm-TabBar-content .lm-TabBar-tab.lm-mod-current .jp-icon3[fill] {
     fill: var(--jp-brand-color2);
+}
+
+
+.jp-StatusBar-HoverItem {
+    box-shadow: rgba(212, 212, 212, 0.4) 0px 4px 20px 0px;
 }
