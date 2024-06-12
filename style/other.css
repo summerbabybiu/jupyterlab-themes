@@ -1,7 +1,3 @@
-/* picture icon color */
-/* .jp-icon-brand0[fill] { 
-    fill: #fbfbfb;
-} */
 .jp-icon3[fill] { /* file icon color */
     fill: var(--jp-layout-color4);
 }
@@ -24,7 +20,6 @@
     background: var(--jp-brand-color3);
 
 }
-
 .jp-DirListing-item.jp-mod-selected {
     background-color: rgb(26 108 231 / 10%);
     color: var(--jp-brand-color2);
@@ -34,4 +29,82 @@
 }
 .jp-DirListing-item.jp-mod-selected .jp-icon-selectable-inverse[fill] {
     fill: #fff
+}
+
+jp-button {
+    border-radius: 5px;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+#jp-main-dock-panel {
+
+    background-color: #f7f6f9;
+
+}
+#jp-left-stack {
+    /* border-right: none */
+}
+.jp-Toolbar {
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.lm-DockPanel-widget {
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+.lm-DockPanel-tabBar {
+    /* padding-left: 5px; */
+    top: 0 !important;
+
+}
+
+.lm-TabBar-content {
+    gap: 5px;
+}
+.lm-TabBar-content li {
+    border-radius: 5px;
+    border: none !important;
+    padding-bottom: 5px;
+
+}
+.lm-DockPanel-tabBar .lm-TabBar-tab {
+    background-color: #e0e0e04d;
+}
+.lm-DockPanel-tabBar[data-orientation='horizontal'] {
+    min-height: calc(
+        var(--jp-private-horizontal-tab-height) + 2 * var(--jp-border-width) + 5px
+      );
+}
+.lm-TabBar-content li::after {
+    border-bottom: none !important;
+}
+.lm-TabBar-addButton {
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.lm-TabBar .lm-TabBar-addButton::after {
+    border-bottom: none;
+}
+.lm-TabBar .lm-TabBar-addButton {
+    padding-bottom: 4px;
+}
+
+.lm-DockPanel-tabBar .lm-TabBar-tab.lm-mod-current {
+    background-color: rgb(26 108 231 / 10%);
+    color: var(--jp-brand-color2);
+}
+
+/* editor */
+.jp-InputArea-editor {
+    background: #fcfbfc;
+    border-radius: 5px;
+}
+.jp-InputPlaceholder > .jp-Placeholder-content {
+    background: #fcfbfc;
+    border-radius: 5px;
 }
