@@ -28,7 +28,7 @@
     fill: var(--jp-brand-color2)
 }
 .jp-DirListing-item.jp-mod-selected .jp-icon-selectable-inverse[fill] {
-    fill: #fff
+    fill: var(--jp-layout-color0)
 }
 
 jp-button {
@@ -101,10 +101,48 @@ body {
 
 /* editor */
 .jp-InputArea-editor {
-    background: #fcfbfc;
+    background: var(--jp-layout-color2);
     border-radius: 5px;
 }
 .jp-InputPlaceholder > .jp-Placeholder-content {
-    background: #fcfbfc;
+    background: var(--jp-layout-color2);
     border-radius: 5px;
 }
+
+/* top menu */
+#jp-menu-panel .lm-MenuBar-content li{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* active menuItem */
+.lm-MenuBar.lm-mod-active .lm-MenuBar-item.lm-mod-active{
+    box-shadow: none;
+    background-color: var(--jp-layout-color3)
+}
+.lm-MenuBar-item.lm-mod-active {
+    background-color: var(--jp-layout-color3)
+}
+.jp-LabShell[data-shell-mode='single-document'] .lm-MenuBar.lm-mod-active .lm-MenuBar-item.lm-mod-active {
+    border-color: transparent;
+}
+/* menu dropdown start */
+.lm-Menu {
+    font-size: medium;
+    box-shadow: rgba(212, 212, 212, 0.4) 0px 4px 20px 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: transparent;
+    padding: 8xp 16px;
+}
+.lm-Menu .lm-Menu-content .lm-Menu-item {
+    min-height: calc(var(--jp-private-menu-item-height) + 4px);
+    max-height: calc(var(--jp-private-menu-item-height) + 4px);
+    line-height: calc(var(--jp-private-menu-item-height) + 4px);
+
+}
+.lm-Menu .lm-Menu-content li div::after {
+    border-color: var(--jp-border-color0);
+}
+/* menu dropdown end */

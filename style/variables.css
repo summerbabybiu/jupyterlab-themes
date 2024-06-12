@@ -116,7 +116,7 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   /* Defaults use Material Design specification */
-  --jp-ui-font-color0: rgba(0, 0, 0, 1);
+  --jp-ui-font-color0: #192A3E;/* rgba(0, 0, 0, 1)*/
   --jp-ui-font-color1: #192A3E;
   --jp-ui-font-color2: #323C47;
   --jp-ui-font-color3: #BCC2CE;
@@ -195,7 +195,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-layout-color0: white;
   --jp-layout-color1: white;
   --jp-layout-color2: #fcfbfc;
-  --jp-layout-color3: var(--md-grey-400);
+  --jp-layout-color3: var(--md-grey-200);
   --jp-layout-color4: var(--md-grey-600);
 
   /* Inverse Layout
