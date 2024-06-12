@@ -120,7 +120,7 @@ body {
     box-shadow: none;
     background-color: var(--jp-layout-color3)
 }
-.lm-MenuBar-item.lm-mod-active {
+.lm-MenuBar-item.lm-mod-active:hover {
     background-color: var(--jp-layout-color3)
 }
 .jp-LabShell[data-shell-mode='single-document'] .lm-MenuBar.lm-mod-active .lm-MenuBar-item.lm-mod-active {
