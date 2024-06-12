@@ -57,7 +57,6 @@ body {
     border-bottom: none;
 }
 .lm-DockPanel-tabBar {
-    /* padding-left: var(--jp-border-radius); */
     top: 0 !important;
 
 }
@@ -68,8 +67,7 @@ body {
 .lm-TabBar-content li {
     border-radius: var(--jp-border-radius);
     border: none !important;
-    padding-bottom: var(--jp-border-radius);
-
+    padding-bottom: 5px;
 }
 .lm-DockPanel-tabBar .lm-TabBar-tab {
     background-color: #e0e0e04d;
