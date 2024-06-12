@@ -21,7 +21,7 @@
 
 }
 .jp-DirListing-item.jp-mod-selected {
-    background-color: rgb(26 108 231 / 10%);
+    background-color: #edf4fd;
     color: var(--jp-brand-color2);
 }
 .jp-DirListing-item.jp-mod-selected .jp-icon-selectable[fill] {
@@ -95,7 +95,7 @@ body {
 }
 
 .lm-DockPanel-tabBar .lm-TabBar-tab.lm-mod-current {
-    background-color: rgb(26 108 231 / 10%);
+    background-color: #edf4fd;
     color: var(--jp-brand-color2);
 }
 
@@ -134,7 +134,6 @@ body {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-color: transparent;
-    padding: 8xp 16px;
 }
 .lm-Menu .lm-Menu-content .lm-Menu-item {
     min-height: calc(var(--jp-private-menu-item-height) + 4px);
@@ -146,3 +145,13 @@ body {
     border-color: var(--jp-border-color0);
 }
 /* menu dropdown end */
+
+
+/* 侧边栏选中 */
+.jp-SideBar.lm-TabBar .lm-TabBar-content .lm-TabBar-tab.lm-mod-current{
+    background-color: #edf4fd;
+}
+
+.jp-SideBar.lm-TabBar .lm-TabBar-content .lm-TabBar-tab.lm-mod-current .jp-icon3[fill] {
+    fill: var(--jp-brand-color2);
+}
